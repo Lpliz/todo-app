@@ -11,6 +11,7 @@
     python manage.py test
 ## 6. Invoke the APIs as:
 After running the server, each API can be independently called using following API endpoints:
+
     a) Add a new ToDo:- http://127.0.0.1:8000/todo/add
     b) Display list of ToDo:- http://127.0.0.1:8000/todo/display
     c) Edit a particular ToDo:- http://127.0.0.1:8000/todo/edit/<int:pk>
